@@ -1,0 +1,17 @@
+.catcard__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: var(--h5-fs);
+  background: var(--btn-color);
+  color: var(--menu-bg-color);
+  text-align: center;
+  overflow: hidden;
+  padding: 2vh;
+  width: 100%;
+  z-index: 3;
+}
+
+.catcard__title--playmode {
+  background: var(--btn-active-color);
+}

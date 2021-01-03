@@ -1,0 +1,11 @@
+.playbtnpnl {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  margin: 10px 0;
+  background-color: transparent;
+}

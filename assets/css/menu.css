@@ -1,0 +1,17 @@
+.menu {
+  position: fixed;
+  width: 320px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--menu-bg-color);
+  z-index: var(--menu-z-index);
+  transition: all var(--animate-menu-style);
+  padding: 100px 0;
+  transform: translate(-320px, 0);
+  overflow: hidden;
+}
+
+.menu--show {
+  transform: translate(0, 0); 
+}

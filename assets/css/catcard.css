@@ -1,0 +1,30 @@
+.catcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 20px;
+  width: 20%;
+  min-width: 220px;
+  height: 33vh;
+  background: var(--btn-color);
+  color: var(--menu-bg-color);
+  transition: filter var(--animate2-style);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.catcard:hover {
+  filter: var(--header-active-shadow);
+}
+
+.catcard--playmode {
+  background: var(--btn-active-color);
+}
+
+.catcard--selected {
+  filter: opacity(0.2);
+  pointer-events: none;
+}

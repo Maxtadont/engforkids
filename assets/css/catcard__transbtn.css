@@ -1,0 +1,13 @@
+.catcard__transbtn {
+  display: block;
+  background: url("../images/cardpictures/repeat.svg");
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  transition: transform var(--animate2-style);
+}
+
+.catcard__transbtn:hover {
+  transform: rotate(180deg);
+}

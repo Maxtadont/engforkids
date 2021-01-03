@@ -1,0 +1,39 @@
+.menubtn__line {
+  margin-top: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--main-color);
+  width: 25px;
+  transition: all var(--animate-menu-style);
+  opacity: 1;
+  margin: 3px;
+}
+
+.menubtn__line:first-child {
+  transform: rotate(0deg);
+  transform-origin: left;
+}
+
+.menubtn__line:nth-child(2) {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.menubtn__line:last-child {
+  transform: rotate(0deg);
+  transform-origin: left;
+}
+
+.menubtn__line--active:first-child {
+  transform: rotate(45deg);
+  transform-origin: left;
+}
+
+.menubtn__line--active:nth-child(2) {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.menubtn__line--active:last-child {
+  transform: rotate(-45deg);
+  transform-origin: left;
+}

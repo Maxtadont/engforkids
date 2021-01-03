@@ -1,0 +1,17 @@
+.playbtn {
+  font-family: sans-serif;
+  display: block;
+  padding: 10px 0;
+  margin-left: 10px;
+  width: 280px;
+  cursor: pointer;
+  color: var(--menu-bg-color);
+  background-color: var(--btn-color);
+  transition: background-color var(--animate2-style);
+}
+
+.playbtn:hover {
+  color: var(--menu-bg-color);
+  background-color: var(--btn-active-color);
+  filter: var(--header-shadow);
+}

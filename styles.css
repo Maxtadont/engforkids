@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap');
+
+@import url("./assets/css/header.css");
+@import url("./assets/css/menubtn.css");
+@import url("./assets/css/greeting.css");
+@import url("./assets/css/switcher.css");
+@import url("./assets/css/menu.css");
+@import url("./assets/css/menu__item.css");
+@import url("./assets/css/menubtn__line.css");
+@import url("./assets/css/back.css");
+@import url("./assets/css/wraper.css");
+@import url("./assets/css/playspace.css");
+@import url("./assets/css/catcard.css");
+@import url("./assets/css/catcard__title.css");
+@import url("./assets/css/catcard__picture.css");
+@import url("./assets/css/catcard__transbtn.css");
+@import url("./assets/css/footer.css");
+@import url("./assets/css/logo.css");
+@import url("./assets/css/about.css");
+@import url("./assets/css/playbtn.css");
+@import url("./assets/css/playbtnpnl.css");
+@import url("./assets/css/progressbar.css");
+@import url("./assets/css/star.css");
+@import url("./assets/css/endplaywin.css");
+
+:root {
+  --main-bg-color: #FABF67;
+  --menu-bg-color: #fbd295;
+  --main-color: #2C4482;
+  --sec-bg-color: #f8d7ae;
+  --sec-color: #B83030;
+  --btn-color: steelblue;
+  --btn-active-color: coral;
+  --h1-fs: 3.5rem;
+  --h2-fs: 3rem;
+  --h3-fs: 2.5rem;
+  --h4-fs: 2rem;
+  --h5-fs: 1.5rem;
+  --h6-fs: 1rem;
+  --animate-style: 0.5s cubic-bezier(0.59, 0.06, 0.82, 1);
+  --animate-menu-style: 0.5s cubic-bezier(0.5, 0.21, 0.87, 0.52);
+  --animate2-style: 0.2s cubic-bezier(0.86, 0.42, 0.79, 0.5);
+  --header-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  --header-active-shadow: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
+  --playwin-z-index: 103;
+  --menubtn-z-index: 102;
+  --menu-z-index: 101;
+  --back-z-index: 100;
+  --header-z-index: 99;
+}
+
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0 auto;
+  background: var(--sec-bg-color);
+}
+
+.header, .footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  background-color: var(--main-bg-color);
+  z-index: var(--header-z-index);
+}

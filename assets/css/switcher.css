@@ -1,0 +1,48 @@
+:root {
+  --chckbox-width: 160px;
+  --chckbox-heigth: 30px;
+  --chckbox-btn-width: 80px;
+  --chckbox-btn-move: -80px;
+  --chckbox-padding: 8px;
+  --double-padding: calc(var(--chckbox-padding) + var(--chckbox-padding));
+  --chckbox-btn-height: calc(var(--chckbox-heigth) - var(--double-padding));
+}
+
+.switcher {
+  font-family: sans-serif;
+  display: inline-block;
+  margin: 10px 10px;
+  width: var(--chckbox-width);
+  height: var(--chckbox-heigth); 
+  background: var(--sec-bg-color);
+  cursor: pointer;
+  transition: filter var(--animate2-style);
+  filter: grayscale(0.2);
+  color: var(--menu-bg-color);
+}
+
+.switcher:hover {
+  filter: var(--header-shadow);
+}
+
+.switcher::after {
+  position: absolute;
+  text-align: center;
+  padding: var(--chckbox-padding) 0 var(--chckbox-padding) 0;
+  content: "TRAIN";
+  width: var(--chckbox-btn-width);
+  height: var(--chckbox-btn-height);    
+  background: var(--btn-color); 
+  transition: transform var(--animate2-style);
+}
+
+.switcher--on {
+  filter: grayscale(0); 
+}
+
+.switcher--on::after {
+  transform: translateX(var(--chckbox-btn-move));
+  align-self: baseline;
+  content: "PLAY";
+  background: var(--btn-active-color);
+}

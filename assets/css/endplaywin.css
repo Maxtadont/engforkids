@@ -1,0 +1,28 @@
+.endplaywin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: var(--playwin-z-index);
+}
+
+.endplaypic {
+  width: 80%;
+  height: 80%;
+  background: wheat;
+}
+
+.endplaypic--good {
+  background: url("../images/cardpictures/success.jpg");
+  background-repeat: no-repeat;
+}
+
+.endplaypic--bad {
+  background: url("../images/cardpictures/failure.jpg");
+  background-repeat: no-repeat;
+}

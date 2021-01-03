@@ -1,0 +1,20 @@
+.menu__item {
+  color: var(--main-color);
+  text-align: left;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px 30px;
+  font-size: var(--h6-fs);
+  transition: filter var(--animate-menu-style);
+}
+
+.menu__item:hover {
+  color: var(--btn-color);
+  background-color: var(--main-bg-color);
+  filter: var(--header-shadow);
+}
+
+.menu__item--active {
+  font-weight: bolder;
+  backdrop-filter: hue-rotate(90deg);
+}

@@ -1,0 +1,17 @@
+.menubtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  text-align: center;
+  background: transparent;
+  transition: all var(--animate-style);
+  z-index: var(--menubtn-z-index);
+}
+
+.menubtn:hover {
+  cursor: pointer;
+  filter: var(--header-shadow);
+}
+ 

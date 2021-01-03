@@ -1,0 +1,8 @@
+.about {
+  color: var(--main-color);
+  font-size: var(--h6-fs);
+  font-family: sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 10px;
+}

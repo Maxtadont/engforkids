@@ -1,0 +1,5 @@
+.greeting {
+  color: var(--main-color);
+  flex-grow: 2;
+  font-size: var(--h3-fs); 
+}

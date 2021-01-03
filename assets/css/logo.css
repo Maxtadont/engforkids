@@ -1,0 +1,10 @@
+.logo {
+  display: block;
+  cursor: pointer;
+  margin: 10px;
+  background-image: url("../images/rs_school_js.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 6rem;
+  height: 3.5rem;
+}
